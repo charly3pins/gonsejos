@@ -1,0 +1,60 @@
+Learning Go present
+9 April 2024
+
+Charly3Pins
+hello@charly3pins.dev
+
+* Hello World
+
+I'm a slide
+
+* Text formatting
+
+normal vs `highlighted`
+*bold*
+_italic_
+*multiple*bold*text*
+_multiple_italic_text_
+
+Grocery list for the gopher:
+
+- go routines
+- garbage collector
+
+* Sections
+
+Surface
+
+** Subsection
+
+The Gopher(1) is diving the subsection.
+
+*** Sub-subsection
+
+Another Gopher(2) is diving more into the sub-subsection!
+
+**** Sub-subsection
+
+The most brave Gopher(3) is diving deeper into the sub-sub-subsection!
+
+* Images
+
+.image /gopher.jpeg 200 200
+.image /gopher.jpeg _ 300
+
+* Links
+
+.link https://charly3pins.dev charly3pins website
+.link https://charly3pins.dev
+
+* Normal and Highlighted code
+.code hello.go
+
+* Display only partial code
+
+Partial code
+.code hello.go /START OMIT/,/END OMIT/
+
+* Playable code
+
+.play hello.go
